@@ -1,0 +1,8 @@
+qstat # it shows your jobs in the cluster (in queue, running, errors, ...)
+qstat -j <id_job> # shows about a specific job
+qstatu # shows all the jobs ruunning at the cluster
+
+
+qsub -q all.q -e <path>/<error_name> -o <path>/<output_name> <script to run>
+
+
